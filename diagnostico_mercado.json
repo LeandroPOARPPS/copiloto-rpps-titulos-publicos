@@ -1,0 +1,368 @@
+{
+  "projeto": "C:\\Users\\Leandro\\Documents\\GitHub\\copiloto-rpps-titulos-publicos",
+  "data_hora": "2026-07-30T16:10:19.218488",
+  "etapas": {
+    "arquivos": {
+      "status": "OK",
+      "erro": null
+    },
+    "feriados": {
+      "status": "OK",
+      "resumo": {
+        "quantidade": 1275,
+        "primeiro": "2000-01-01",
+        "ultimo": "2099-12-25"
+      },
+      "erro": null
+    },
+    "taxas_mercado": {
+      "status": "OK",
+      "resumo": {
+        "linhas": 56,
+        "colunas": [
+          "Data",
+          "Título",
+          "Vencimento",
+          "PU_Mercado",
+          "Taxa_Mercado",
+          "VNA",
+          "Duration_Dias_Uteis",
+          "Volatilidade_12m",
+          "Indexador",
+          "Tem_Cupom",
+          "Cupom_Anual",
+          "Frequencia_Cupom",
+          "Mes_Base_Cupom",
+          "Dia_Cupom",
+          "ID_Titulo"
+        ],
+        "primeira_linha": {
+          "Data": "2026-07-24",
+          "Título": "LFT",
+          "Vencimento": "2026-09-01",
+          "PU_Mercado": "19507.34323",
+          "Taxa_Mercado": "0.0059",
+          "VNA": "19507.479783",
+          "Duration_Dias_Uteis": "1.0",
+          "Volatilidade_12m": "0.03",
+          "Indexador": "SELIC",
+          "Tem_Cupom": "False",
+          "Cupom_Anual": "0.0",
+          "Frequencia_Cupom": "-",
+          "Mes_Base_Cupom": "nan",
+          "Dia_Cupom": "nan",
+          "ID_Titulo": "LFT_20260901"
+        },
+        "ultima_linha": {
+          "Data": "2026-07-24",
+          "Título": "NTN-F",
+          "Vencimento": "2037-01-01",
+          "PU_Mercado": "767.017278",
+          "Taxa_Mercado": "14.8306",
+          "VNA": "nan",
+          "Duration_Dias_Uteis": "1539.7489055",
+          "Volatilidade_12m": "8.74",
+          "Indexador": "PRE",
+          "Tem_Cupom": "True",
+          "Cupom_Anual": "0.1",
+          "Frequencia_Cupom": "Semestral",
+          "Mes_Base_Cupom": "Janeiro/Julho",
+          "Dia_Cupom": "1.0",
+          "ID_Titulo": "NTN-F_20370101"
+        }
+      },
+      "erro": null
+    },
+    "curvas_anbima": {
+      "status": "OK",
+      "resumo": {
+        "ipca": {
+          "linhas": 67,
+          "colunas": [
+            "Vertices_Dias_Uteis",
+            "Taxa_IPCA"
+          ],
+          "primeira_linha": {
+            "Vertices_Dias_Uteis": "126.0",
+            "Taxa_IPCA": "8.4136"
+          },
+          "ultima_linha": {
+            "Vertices_Dias_Uteis": "8442.0",
+            "Taxa_IPCA": "7.2474"
+          }
+        },
+        "prefixada": {
+          "linhas": 20,
+          "colunas": [
+            "Vertices_Dias_Uteis",
+            "Taxa_Prefixada"
+          ],
+          "primeira_linha": {
+            "Vertices_Dias_Uteis": "126.0",
+            "Taxa_Prefixada": "13.8167"
+          },
+          "ultima_linha": {
+            "Vertices_Dias_Uteis": "2520.0",
+            "Taxa_Prefixada": "14.8928"
+          }
+        },
+        "selic": {
+          "linhas": 18,
+          "colunas": [
+            "Vertices_Dias_Uteis",
+            "Spread_LFT"
+          ],
+          "primeira_linha": {
+            "Vertices_Dias_Uteis": "28.0",
+            "Spread_LFT": "0.0059"
+          },
+          "ultima_linha": {
+            "Vertices_Dias_Uteis": "1531.0",
+            "Spread_LFT": "0.1157"
+          }
+        },
+        "betas": {
+          "linhas": 2,
+          "colunas": [
+            "Data",
+            "Tipo",
+            "Beta1",
+            "Beta2",
+            "Beta3",
+            "Beta4",
+            "Lambda1",
+            "Lambda2"
+          ],
+          "primeira_linha": {
+            "Data": "2026-07-24",
+            "Tipo": "PREFIXADOS",
+            "Beta1": "0.148578447172685",
+            "Beta2": "-0.00928268286892401",
+            "Beta3": "-0.0254826142379044",
+            "Beta4": "0.0162909250670059",
+            "Lambda1": "1.50921009879167",
+            "Lambda2": "0.60354069858861"
+          },
+          "ultima_linha": {
+            "Data": "2026-07-24",
+            "Tipo": "IPCA",
+            "Beta1": "0.0691434784284171",
+            "Beta2": "0.0723844239089325",
+            "Beta3": "-0.0479135776238054",
+            "Beta4": "0.046908400320279",
+            "Lambda1": "5.82119657942666",
+            "Lambda2": "0.436882710381794"
+          }
+        }
+      },
+      "erro": null
+    },
+    "vna_ipca": {
+      "status": "OK",
+      "resumo": {
+        "vna": {
+          "linhas": 313,
+          "colunas": [
+            "Data_Mes",
+            "VNA_IPCA_Dia_15"
+          ],
+          "primeira_linha": {
+            "Data_Mes": "2000-07-15",
+            "VNA_IPCA_Dia_15": "1000.0"
+          },
+          "ultima_linha": {
+            "Data_Mes": "2026-07-15",
+            "VNA_IPCA_Dia_15": "4739.424756"
+          }
+        },
+        "prorata": {
+          "linhas": 313,
+          "colunas": [
+            "Data",
+            "IPCA",
+            "Dias_Uteis_IPCA_Mes",
+            "Pro_Rata_Diario_IPCA"
+          ],
+          "primeira_linha": {
+            "Data": "2000-07-15",
+            "IPCA": "0.01610285999999994",
+            "Dias_Uteis_IPCA_Mes": "22",
+            "Pro_Rata_Diario_IPCA": "0.0007263811502553619"
+          },
+          "ultima_linha": {
+            "Data": "2026-07-01",
+            "IPCA": "0.0006",
+            "Dias_Uteis_IPCA_Mes": "23",
+            "Pro_Rata_Diario_IPCA": "2.607947362731622e-05"
+          }
+        },
+        "projecoes": {
+          "linhas": 5,
+          "colunas": [
+            "Data",
+            "Nome",
+            "Ano",
+            "Mediana_IPCA_Focus",
+            "IPCA_Mensal_Focus",
+            "Projecao_IPCA_RPPS",
+            "Projecao_IPCA_Mensal_RPPS"
+          ],
+          "primeira_linha": {
+            "Data": "2026-07-24",
+            "Nome": "Expectativa IPCA",
+            "Ano": "2026",
+            "Mediana_IPCA_Focus": "0.05169",
+            "IPCA_Mensal_Focus": "0.004208697971373576",
+            "Projecao_IPCA_RPPS": "nan",
+            "Projecao_IPCA_Mensal_RPPS": "nan"
+          },
+          "ultima_linha": {
+            "Data": "2026-07-24",
+            "Nome": "Expectativa IPCA",
+            "Ano": "2030",
+            "Mediana_IPCA_Focus": "0.037808",
+            "IPCA_Mensal_Focus": "0.0030973532947624616",
+            "Projecao_IPCA_RPPS": "nan",
+            "Projecao_IPCA_Mensal_RPPS": "nan"
+          }
+        },
+        "ultimo_vna": 4739.424756
+      },
+      "erro": null
+    },
+    "vna_selic": {
+      "status": "OK",
+      "resumo": {
+        "vna": {
+          "linhas": 6548,
+          "colunas": [
+            "Data",
+            "Selic Diária",
+            "VNA Selic",
+            "Taxa_Selic_Efetiva_aa"
+          ],
+          "primeira_linha": {
+            "Data": "2000-07-03",
+            "Selic Diária": "0.0006320399999999999",
+            "VNA Selic": "1000.0",
+            "Taxa_Selic_Efetiva_aa": "0.1726003070522084"
+          },
+          "ultima_linha": {
+            "Data": "2026-07-28",
+            "Selic Diária": "0.000525310022963188",
+            "VNA Selic": "19527.980115",
+            "Taxa_Selic_Efetiva_aa": "0.1415002068314426"
+          }
+        },
+        "copom": {
+          "linhas": 12,
+          "colunas": [
+            "Data após COPOM",
+            "Projecao_Selic_Efetiva_B3",
+            "Projecao_Selic_Efetiva_RPPS"
+          ],
+          "primeira_linha": {
+            "Data após COPOM": "2026-08-06",
+            "Projecao_Selic_Efetiva_B3": "0.139",
+            "Projecao_Selic_Efetiva_RPPS": "nan"
+          },
+          "ultima_linha": {
+            "Data após COPOM": "2027-12-09",
+            "Projecao_Selic_Efetiva_B3": "0.1265",
+            "Projecao_Selic_Efetiva_RPPS": "nan"
+          }
+        },
+        "ultimo_vna": 19527.980115
+      },
+      "erro": null
+    },
+    "fundos": {
+      "status": "OK",
+      "resumo": {
+        "linhas": 2419,
+        "colunas": [
+          "Nome",
+          "CNPJ",
+          "Classe Anbima",
+          "Categoria Anbima",
+          "Subcategoria Anbima",
+          "Classificação Anbima",
+          "Subclasse CVM"
+        ],
+        "primeira_linha": {
+          "Nome": "201 FIF RF Créd Priv Resp Limitada",
+          "CNPJ": "49183606000107",
+          "Classe Anbima": "Renda Fixa",
+          "Categoria Anbima": "Duração Livre",
+          "Subcategoria Anbima": "Crédito Livre",
+          "Classificação Anbima": "Renda Fixa Duração Livre Crédito Livre",
+          "Subclasse CVM": "Crédito Privado"
+        },
+        "ultima_linha": {
+          "Nome": "\\\"Legacy Capital Portfolio Renda Mais Fundo Incentivado de Investimento em Infraestrutura R",
+          "CNPJ": "57021822000176",
+          "Classe Anbima": "Renda Fixa",
+          "Categoria Anbima": "-",
+          "Subcategoria Anbima": "-",
+          "Classificação Anbima": "Renda Fixa Duração Baixa Crédito Livre",
+          "Subclasse CVM": "Longo Prazo"
+        }
+      },
+      "erro": null
+    },
+    "retornos_categorias": {
+      "status": "OK",
+      "resumo": {
+        "linhas": 256,
+        "colunas": [
+          "Classificação Anbima",
+          "Data",
+          "Retorno_Medio_12m"
+        ],
+        "primeira_linha": {
+          "Classificação Anbima": "Renda Fixa Duração Livre Crédito Livre",
+          "Data": "2021-12-31",
+          "Retorno_Medio_12m": "0.3395183522"
+        },
+        "ultima_linha": {
+          "Classificação Anbima": "Renda Fixa Dívida Externa",
+          "Data": "2026-06-30",
+          "Retorno_Medio_12m": "-0.10707580411"
+        }
+      },
+      "erro": null
+    },
+    "volatilidades_categorias": {
+      "status": "OK",
+      "resumo": {
+        "linhas": 256,
+        "colunas": [
+          "Classificação Anbima",
+          "Data",
+          "Volatilidade_Anualizada_12m"
+        ],
+        "primeira_linha": {
+          "Classificação Anbima": "Renda Fixa Duração Livre Crédito Livre",
+          "Data": "2021-12-31",
+          "Volatilidade_Anualizada_12m": "2.93740128"
+        },
+        "ultima_linha": {
+          "Classificação Anbima": "Renda Fixa Dívida Externa",
+          "Data": "2026-06-30",
+          "Volatilidade_Anualizada_12m": "9.7475362644"
+        }
+      },
+      "erro": null
+    }
+  },
+  "arquivos_selecionados": {
+    "holidays": "dados\\feriados\\Feriados.xlsx",
+    "ipca_vna": "dados\\vna\\VNA IPCA e Projeções.xlsx",
+    "selic_vna": "dados\\vna\\VNA Selic e Projeções.xlsx",
+    "market_rates": "dados\\taxas\\Taxas de Mercado Titulos Publicos_24072026.xlsx",
+    "anbima_curves": "dados\\curvas\\Curvas Anbima_24072026 e Betas.xlsx",
+    "fund_registry": "dados\\fundos\\base fundos_CNPJs.xlsx",
+    "category_returns": "dados\\fundos\\Retorno medio para 12 meses_Categorias Anbima.xlsx",
+    "category_volatility": "dados\\fundos\\Volatilidade para 12 meses_Categorias Anbima.xlsx"
+  }
+}

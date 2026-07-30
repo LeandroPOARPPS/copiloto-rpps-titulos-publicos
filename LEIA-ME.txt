@@ -1,0 +1,25 @@
+# Diagnóstico do módulo Mercado
+
+## Onde colocar
+
+Copie os dois arquivos abaixo para a raiz do repositório:
+
+- `diagnostico_mercado.py`
+- `executar_diagnostico.bat`
+
+A raiz é a pasta que contém `src`, `dados`, `tests` e `requirements.txt`.
+
+## Como executar
+
+Dê dois cliques em:
+
+`executar_diagnostico.bat`
+
+O programa:
+
+1. localiza os arquivos mais recentes;
+2. testa taxas, curvas, VNA, feriados e fundos separadamente;
+3. mostra os resultados na tela;
+4. cria `diagnostico_mercado.json` na raiz do projeto.
+
+Caso algum item apresente erro, envie o arquivo JSON para correção.
